@@ -4,7 +4,7 @@ import streamlit as st
 import mysql.connector
 
 # Add your open AI API key
-openai.api_key = open_ai_api_key
+openai.api_key = st.secrets.open_ai_api_key
 
 # Setting up database attributes
 # Add your server url
